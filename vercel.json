@@ -1,12 +1,20 @@
 {
   "rewrites": [
     {
+      "source": "/pm",
+      "destination": "https://liltom-pm.vercel.app/pm"
+    },
+    {
       "source": "/pm/:match*",
-      "destination": "https://liltom-pm.vercel.app/:match*"
+      "destination": "https://liltom-pm.vercel.app/pm/:match*"
+    },
+    {
+      "source": "/bmd",
+      "destination": "https://sts-bmd.vercel.app/bmd"
     },
     {
       "source": "/bmd/:match*",
-      "destination": "https://sts-bmd.vercel.app/:match*"
+      "destination": "https://sts-bmd.vercel.app/bmd/:match*"
     },
     {
       "source": "/",
