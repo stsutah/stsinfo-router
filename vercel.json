@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/pm/:match*",
+      "destination": "https://REPLACE_WITH_PM_URL/:match*"
+    },
+    {
+      "source": "/bmd/:match*",
+      "destination": "https://REPLACE_WITH_BMD_URL/:match*"
+    },
+    {
+      "source": "/",
+      "destination": "/index.html"
+    }
+  ]
+}
