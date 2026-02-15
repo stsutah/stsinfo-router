@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/pm/:match*",
-      "destination": "https://REPLACE_WITH_PM_URL/:match*"
+      "destination": "https://liltom-pm.vercel.app/:match*"
     },
     {
       "source": "/bmd/:match*",
-      "destination": "https://REPLACE_WITH_BMD_URL/:match*"
+      "destination": "https://sts-bmd.vercel.app/:match*"
     },
     {
       "source": "/",
